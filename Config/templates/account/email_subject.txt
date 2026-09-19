@@ -1,0 +1,4 @@
+{% load i18n %}
+{% autoescape off %}
+{% blocktrans %}Welcome to PropertyCo! Confirm Your Email Address{% endblocktrans %}
+{% endautoescape %}

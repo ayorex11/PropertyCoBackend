@@ -1,0 +1,11 @@
+{% load i18n %}{% autoescape off %}{% blocktrans with site_name="PropertyCo" %}{% endblocktrans %}
+
+{% block content %}{% endblock %}
+
+{% blocktrans with site_name="PropertyCo" site_domain="propertyco.ng" %}
+Thank you for choosing {{site_name}} for your property search needs. We look forward to helping you find your dream property!
+
+Best regards,
+The {{site_name}} Team
+{{ site_domain }}{% endblocktrans %}
+{% endautoescape %}
